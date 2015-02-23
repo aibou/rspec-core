@@ -52,7 +52,7 @@ module RSpec
         @name          = args.shift || :spec
         @ruby_opts     = nil
         @rspec_opts    = nil
-        @verbose       = true
+        @verbose       = false
         @fail_on_error = true
         @rspec_path    = DEFAULT_RSPEC_PATH
         @pattern       = DEFAULT_PATTERN
